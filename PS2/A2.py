@@ -21,3 +21,4 @@ def g(x, omega):
 mean = np.mean(g(x, omega))
 var = np.var(g(x-mean, omega))
 print(f'mean = {mean:.5f}, var = {var:.5f}')
+
